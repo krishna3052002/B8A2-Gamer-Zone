@@ -312,9 +312,63 @@ opacity: 0.3;
 border: 4px solid red;
 border-radius: 15px;
 }
-
-
-
+/* Instant play section */
+.instant-play{
+    display: flex;
+   
+    margin: 30px 150px 0px 150px;
+}
+#top{
+    position: absolute;
+    top: 2310px;
+    right: 620px;
+}
+.section-images{
+    /* position: relative; */
+    /* left: 20px; */
+    /* top: 40px; */
+    height:100%;
+    padding-bottom: 0px;
+    
+    
+}
+.section-title{
+    
+    text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+width: 8em;
+/* position: relative; */
+/* left: 130px; */
+/* top: 180px; */
+margin-bottom: 0px;
+}
+.about-section{
+    
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 20.8em;
+padding-left: 10px;
+}
+.section-description{
+    
+    width: 47%;
+    padding-top: 10em;
+    padding-left: 10px;
+   
+}
+.section-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
  /* Media query */
  @media screen and (max-width:576px) {
 
@@ -441,4 +495,45 @@ border-radius: 15px;
 .cards-items{
     padding-left: 1.2em;
 }
+/* Instant play section responsive*/
+.instant-play{
+    flex-direction: column;
+margin: 10px 0px;
+width: 22em;
+
+}
+#background{
+    width: 12em;
+    position: relative;
+    left: 120px;
+}
+.section-title{
+    font-size: 2em;
+    width: 8em;
+text-align: center;
+position: relative;
+left: 40px;
+}
+.about-section{
+    text-align: center;
+    font-size: 0.9em;
+   
+    padding-left: 10px;
+    position: relative;
+    left: 10px;
+
+}
+#top{
+    position: absolute;
+    top: 4090px;
+    left: 70px;
+    width: 8em;
+}
+.section-description{
+    padding-top: 0;
+}
+
+
+
+
  }
