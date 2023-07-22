@@ -176,7 +176,6 @@
      align-items: flex-start;
      gap: 10px;
      color: #FFF;
-     font-family: Work Sans;
      font-size: 0.8rem;
      font-style: normal;
      font-weight: 600;
@@ -184,7 +183,7 @@
      text-transform: uppercase;
      margin-right: 10px;
  }
-
+ 
  .btn-2 {
      display: inline-flex;
      padding: 15px 25px;
@@ -427,7 +426,8 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 70px;
 }
 .icons img{
     width: 40px;
@@ -451,6 +451,7 @@ footer li a{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .link-section{
     margin-top: 60px;
@@ -463,6 +464,7 @@ footer li a{
     justify-content: center;
     align-items: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 .terms-and-conditions a{
     color: rgba(255, 255, 255, 0.60);
@@ -483,6 +485,11 @@ line-height: normal;
 margin-top: 10px;
 
 }
+button:hover{
+    background-color:gray;
+}
+
+
 
  /* Media query */
  @media screen and (max-width:576px) {
@@ -666,6 +673,19 @@ left: 40px;
     padding: 0px;
 
 }
-.button-section
+/* footer section responsive */
+.footer-title-section img{
+    width: 3em;
+}
+.footer-title-section .nav-title{
+    font-size: 2em;
+}
+.link-section li a{
+    font-size: 0.8em;
+}
+footer{
+    padding-right:30px; 
+}
+
 
  }
